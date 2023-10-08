@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(124, 141, 178);
+    font-family:'Courier New', Courier, monospace;
+
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden ;
+    background-color: rgb(172, 111, 192);
+    border-radius: 5px;
+}
+
+a{
+    float: left;
+    display:flex;
+    color: rgb(233, 233, 233);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover{
+    background-color: brown;
+    transition: 0.7s ease;
+}
+
+h3{
+    padding: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(115, 151, 152);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: x-large;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(161, 213, 226);
+    transition: 0.3s ease;
+}
